@@ -1,11 +1,10 @@
 name: zhuanxiagjiaozhou
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '1 1/6 * * *'
+    - cron: '33 4/6 * * *'
 
-jobs:  # 16084
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -13,15 +12,14 @@ jobs:  # 16084
       - uses: actions/checkout@v4
       - name: zhuanxiagjiaozhou
         env:
-          yn66694: ${{ secrets.yn66694 }}
+          tfg228: ${{ secrets.tfg228 }}
         run: |
-          echo $yn66694 | jq -r .ejf1 | /bin/bash
-          echo $ekiyh8474 | jq -r .kpzo3 | /bin/bash
-          echo $i76336 | jq -r .dynaa47886 | /bin/bash
-          echo $gab88848 | jq -r .sy4 | /bin/bash
-          echo $hh92368 | jq -r .lhmr7 | /bin/bash
-          echo $l237 | jq -r .u25 | /bin/bash
-          echo $win301 | jq -r .qliqd784 | /bin/bash
-          echo $xbxt073 | jq -r .khn105 | /bin/bash
-          echo $bugoy44149 | jq -r .sh5 | /bin/bash
+          echo $tfg228 | jq -r .syyw7070 | /bin/bash
+          echo $fw764 | jq -r .vuk35 | /bin/bash
+          echo $uqwgr2258 | jq -r .jaj6706 | /bin/bash
+          echo $b34 | jq -r .p8 | /bin/bash
+          echo $qoqwp7 | jq -r .yh710 | /bin/bash
+          echo $kc14 | jq -r .tk737 | /bin/bash
+          echo $lhh98187 | jq -r .z00286 | /bin/bash
+          echo $fj20140 | jq -r .jjrt5763 | /bin/bash
 
