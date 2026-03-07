@@ -1,25 +1,32 @@
 name: zhuanxiagjiaozhou
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '33 4/6 * * *'
+    - cron: '34 4/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: zhuanxiagjiaozhou
         env:
-          tfg228: ${{ secrets.tfg228 }}
+          keib09694: ${{ secrets.keib09694 }}
         run: |
-          echo $tfg228 | jq -r .syyw7070 | /bin/bash
-          echo $fw764 | jq -r .vuk35 | /bin/bash
-          echo $uqwgr2258 | jq -r .jaj6706 | /bin/bash
-          echo $b34 | jq -r .p8 | /bin/bash
-          echo $qoqwp7 | jq -r .yh710 | /bin/bash
-          echo $kc14 | jq -r .tk737 | /bin/bash
-          echo $lhh98187 | jq -r .z00286 | /bin/bash
-          echo $fj20140 | jq -r .jjrt5763 | /bin/bash
+          echo $keib09694 | jq -r .kgv17615 | /bin/bash
+          echo $wr2 | jq -r .wrj75255 | /bin/bash
+          echo $fq9 | jq -r .fruc322 | /bin/bash
+          echo $z65561 | jq -r .va99588 | /bin/bash
+          echo $kkm226 | jq -r .dew10 | /bin/bash
+          echo $qj99729 | jq -r .ufthn26 | /bin/bash
+          echo $lmn9288 | jq -r .erphe8 | /bin/bash
+          echo $wij5231 | jq -r .tpmjk72 | /bin/bash
+          echo $pqqrp05680 | jq -r .ket87712 | /bin/bash
+          echo $ella7676 | jq -r .gocgm779 | /bin/bash
+          echo $ufrjk74 | jq -r .dbcw57 | /bin/bash
+          echo $xy0 | jq -r .trw189 | /bin/bash
+          echo $v7105 | jq -r .a91 | /bin/bash
+          echo $z25 | jq -r .ww721 | /bin/bash
+          echo $cihu26 | jq -r .zby465 | /bin/bash
 
